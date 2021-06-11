@@ -29,6 +29,6 @@ function calculate () {
 
   if (negative) {
     answer = 0 - answer
- }
-  document.getElementById('answer').innerHTML = answer 
- }
+  }
+  document.getElementById('answer').innerHTML = answer
+}

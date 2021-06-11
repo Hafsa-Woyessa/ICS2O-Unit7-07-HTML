@@ -24,11 +24,11 @@ function calculate () {
   }
 
   for (counter = 0; counter < firstNum; counter++) {
-   answer = answer + secondNum
+    answer = answer + secondNum
   }
 
-if (negative) {
-  answer = 0 - answer
+  if (negative) {
+    answer = 0 - answer
  }
- document.getElementById('answer').innerHTML = answer 
+  document.getElementById('answer').innerHTML = answer 
  }

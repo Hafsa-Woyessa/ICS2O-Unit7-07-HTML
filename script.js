@@ -11,8 +11,8 @@ function calculate () {
   secondNum = document.getElementById('second').value
   firstNum = parseInt(firstNum)
   secondNum = parseInt(secondNum)
-   answer = 0
-   negative = false
+  answer = 0
+  negative = false
 
   if (firstNum < 0) {
     negative = !negative
@@ -23,12 +23,12 @@ function calculate () {
     firstNum = Math.abs(secondNum)
   }
 
- for (counter = 0; counter < firstNum; counter++) {
-  answer = answer + secondNum
-}
+  for (counter = 0; counter < firstNum; counter++) {
+   answer = answer + secondNum
+  }
 
 if (negative) {
   answer = 0 - answer
-}
-document.getElementById('answer').innerHTML = answer 
-}
+ }
+ document.getElementById('answer').innerHTML = answer 
+ }
